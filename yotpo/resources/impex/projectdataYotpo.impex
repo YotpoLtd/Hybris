@@ -1,0 +1,20 @@
+### site, language, country
+$site=apparel-uk
+$language=en
+$country=GB
+
+### Yotpo configuration
+
+$appKey=put_your_app_key_here
+$clientSecretKey=put_your_secret_here
+$utokenAuthCode=utoken
+
+$isEnableBottomLine=true
+$isEnablePurchaseFeed=true
+$isEnableReviews=true
+
+
+INSERT_UPDATE Yotpo;code[unique=true];site(uid);language(isocode[unique=true]);country(isocode[unique=true]);appKey;clientSecretKey;utokenAuthCode;enablePurchaseFeed;enableBottomLine;enableReviews
+;YotpoConfig;$site;$language;$country;$appKey;$clientSecretKey;$utokenAuthCode;$isEnablePurchaseFeed;$isEnableBottomLine;$isEnableReviews
+
+
